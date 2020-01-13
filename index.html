@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <input type="checkbox" id="emotion" name="emotion" value="emotion">
+    <label for="emotion">Emotion</label>
+
+    <input type="checkbox" id="face" name="face" value="face">
+    <label for="face">Face</label>
+  </div>
+
+  <input disabled="disabled" type="file" id="imageUpload">
+  <p id="chargement"></p>
+  <canvas id="myCanvas"></canvas>
+</body>
+
+</html>
